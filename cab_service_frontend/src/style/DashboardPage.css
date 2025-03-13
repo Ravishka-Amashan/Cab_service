@@ -1,0 +1,71 @@
+/* Dashboard Content Styling */
+.dashboard-content {
+    max-width: 900px;
+    margin: 40px auto;
+    grid-template-columns: 1fr 1fr; /* Splits content into two equal columns */
+    gap: 40px; /* Adds spacing between the two boxes */
+    align-items: center;
+  }
+  
+  /* Reservations and Booking Section */
+  .reservations-section, 
+  .booking-section {
+    margin: 20px 20px;
+    background: linear-gradient(135deg, #000000, #000000);
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .reservations-section:hover, 
+  .booking-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Headings */
+  .reservations-section h2, 
+  .booking-section h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  /* Paragraph Styling */
+  .reservations-section p, 
+  .booking-section p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+    opacity: 0.9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-content {
+      grid-template-columns: 1fr; /* Stacks boxes on smaller screens */
+      gap: 20px;
+    }
+  
+    .reservations-section, 
+    .booking-section {
+      padding: 20px;
+    }
+  
+    .reservations-section h2, 
+    .booking-section h2 {
+      font-size: 22px;
+    }
+  
+    .reservations-section p, 
+    .booking-section p {
+      font-size: 16px;
+    }
+  }
+  

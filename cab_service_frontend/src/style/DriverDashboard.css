@@ -1,0 +1,48 @@
+.driver-dashboard-container {
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dashboard-content {
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.trip-list, .driver-profile {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 45%;
+}
+
+.trip-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.trip-list li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.status-btn {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.status-btn:hover {
+    background-color: darkred;
+}

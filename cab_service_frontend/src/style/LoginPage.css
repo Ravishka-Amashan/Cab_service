@@ -1,0 +1,95 @@
+/* Login Container */
+.login-container {
+  max-width: 380px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3, #fad0c4);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Form Elements */
+form div {
+  margin-bottom: 12px;
+}
+
+/* Labels */
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  background: #fff;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Login Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #ff4e60, #ff758c);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-style: italic;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff2e4d, #ff6b8a);
+  transform: scale(1.05);
+}
+
+/* Register Button */
+.register-button {
+  margin-top: 12px;
+  padding: 12px;
+  background: linear-gradient(135deg, #000000, #000000);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-style: italic;
+}
+
+.register-button:hover {
+  background: linear-gradient(135deg, #ff2e4d, #ff6b8a);
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-container {
+      padding: 20px;
+  }
+
+  button, .register-button {
+      font-size: 14px;
+  }
+}

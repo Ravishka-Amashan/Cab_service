@@ -1,0 +1,12 @@
+spring.application.name=megacitycab
+
+# Server configuration
+server.port=9090
+
+# MongoDB Configuration
+spring.data.mongodb.uri=mongodb+srv://<user_name>:<password>@cluster0._______.mongodb.net/ClusterName
+# spring.data.mongodb.auto-index-creation=true
+
+# JWT Configuration
+jwt.secret=example_secret_key
+jwt.expiration=864000000
